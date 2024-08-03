@@ -1,0 +1,45 @@
+/* Basic Reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar__item {
+    margin: 0 15px; /* Spacing between items */
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #fff; /* Default text color */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 10px 15px;
+    display: block;
+    border: 2px dashed #fff; /* Default border style */
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar__link:hover {
+    color: #f39c12; /* Color on hover */
+    border-color: #f39c12; /* Border color on hover */
+}
